@@ -1,0 +1,87 @@
+body {margin: 0;}
+div {box-sizing: border-box;}
+
+.container {
+  margin: auto;
+  margin-top: 5%;
+  width: 90%;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+  min-height: 100%;
+}
+
+.darkmodeBg {
+  background-color: black;
+}
+
+.darkmode {
+  color: white;
+  background-color: #212529;
+}
+
+.Btn {
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.darkBtn {
+  color: white;
+  background-color: #343a40;
+}
+
+.fixedDarkBtn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.answer {
+  font-size: 2rem;
+  width: 250px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.O {
+  background-color: blue;
+}
+.O:hover {
+  background-color: rgb(92, 92, 255);
+}
+
+.X {
+  background-color: red;
+}
+.X:hover {
+  background-color: rgb(252, 77, 77);
+}
+
+.answerO {color: blue;}
+.answerX {color: red}
+
+.resultScore {
+  font-size: 3rem;
+}
+.scorePerfect {
+  color: gold;
+}
+.scoreHigh {
+  color: greenyellow;
+}
+.scoreMiddle {
+  color: brown;
+}
+.scoreLow {
+  color: red;
+}
