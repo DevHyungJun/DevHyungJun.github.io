@@ -53,16 +53,17 @@ function QuizScreen({ darkmodeToggle }) {
   return (
     <>
       <h4>{num}/10</h4>
-      <h3>{currentQ.question}</h3>
+      <h3 className="question">{currentQ.question}</h3>
+      <div className="image" style={{backgroundImage:currentQ.image}}></div>
       {!showaddEx ? (
         <div className="answers">
           <button className="O answer" onClick={() => checkAnwser('O')}>O</button>
           <button className="X answer" onClick={() => checkAnwser('X')}>X</button>
         </div>
       ) : <>
-        <p className={answerOX === '정답!' ? 'answerO' : 'answerX'}>{answerOX}</p>
-        <p>{currentQ.addEx}</p>
-        {showaddEx ? <button className={darkmodeToggle ? 'Btn darkBtn' : 'Btn'} onClick={nextQ}>{num === 10 ? resultView : nextView}</button> : null}
+        <p className={answerOX === '정답!' ? 'answerO' : 'answerX'} style={{fontSize:'2rem'}}>{answerOX}</p>
+        <p className="addEx">{currentQ.addEx}</p>
+        {showaddEx ? <button className={darkmodeToggle ? 'Btn darkBtn viewBtn' : 'Btn viewBtn'} onClick={nextQ}>{num === 10 ? resultView : nextView}</button> : null}
       </>}
     </>
   )

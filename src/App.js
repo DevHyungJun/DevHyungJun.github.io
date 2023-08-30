@@ -36,7 +36,8 @@ function HomeScreen({ darkmodeToggle }) {
     <>
       <h1>상식 퀴즈</h1>
       <p className='fs-l'>상식 퀴즈에 오신 것을 환영합니다! 퀴즈는 총 10문제로 구성되어 있습니다.</p>
-      <Link to={'/quiz'}><button className={darkmodeToggle === true ? 'Btn darkBtn' : 'Btn'}>시작하기</button></Link>
+      <div className='homeImage'/>
+      <Link to={'/quiz'}><button className={darkmodeToggle === true ? 'Btn darkBtn viewBtn' : 'Btn viewBtn'}>시작하기</button></Link>
     </>
   )
 }

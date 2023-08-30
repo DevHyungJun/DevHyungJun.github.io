@@ -100,3 +100,36 @@ button {font-family: 'Noto Serif KR', serif;}
 .fs-l {
   font-size: 1.4rem;
 }
+
+.addEx {
+  font-size: 1.3rem;
+}
+
+.question {
+  font-size: 1.8rem;
+}
+
+.image {
+  width: 100%;
+  height: 320px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.viewBtn {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.homeImage {
+  background-image: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99C9493C5F32979520');
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+}
