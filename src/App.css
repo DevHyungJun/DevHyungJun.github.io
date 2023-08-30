@@ -1,11 +1,19 @@
-body {margin: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&display=swap');
+
+body {
+  margin: 0; font-family: 'Song Myung', serif; -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
 div {box-sizing: border-box;}
+button {font-family: 'Noto Serif KR', serif;}
 
 .container {
   margin: auto;
   margin-top: 5%;
   width: 90%;
-  height: 500px;
   border: 1px solid black;
   border-radius: 6px;
   padding: 20px;
@@ -41,8 +49,8 @@ div {box-sizing: border-box;}
 
 .fixedDarkBtn {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 7px;
+  right: 7px;
 }
 
 .answer {
@@ -51,6 +59,9 @@ div {box-sizing: border-box;}
   color: white;
   border: none;
   border-radius: 3px;
+}
+.answers {
+  margin-bottom: 25px;
 }
 
 .O {
@@ -84,4 +95,8 @@ div {box-sizing: border-box;}
 }
 .scoreLow {
   color: red;
+}
+
+.fs-l {
+  font-size: 1.4rem;
 }
