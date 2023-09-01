@@ -59,6 +59,7 @@ button {font-family: 'Noto Serif KR', serif;}
   color: white;
   border: none;
   border-radius: 3px;
+  padding: 10px 0px 10px 0px;
 }
 .answers {
   margin-bottom: 25px;
@@ -132,4 +133,8 @@ button {font-family: 'Noto Serif KR', serif;}
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 10px;
+}
+
+.resultBtns {
+  margin-bottom: 19px;
 }
