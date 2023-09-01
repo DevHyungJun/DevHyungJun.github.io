@@ -126,7 +126,7 @@ button {font-family: 'Noto Serif KR', serif;}
 }
 
 .homeImage {
-  background-image: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99C9493C5F32979520');
+  background-image: url('../public/제리꾸벅.gif');
   background-size: contain;
   width: 100%;
   height: 300px;
