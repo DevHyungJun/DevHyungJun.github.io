@@ -1,7 +1,7 @@
 import './App.css';
 import { Link, useLocation } from 'react-router-dom';
 
-function ResultScreen({ darkmodeToggle }) {
+function ResultScreen({ darkmodeToggle, shareToKakao }) {
   const location = useLocation();
   const score = location.state.score;
 
@@ -12,6 +12,10 @@ function ResultScreen({ darkmodeToggle }) {
         <p className='resultScore scorePerfect'>{score}점</p>
         <Link to={'/quiz'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns'}>다시 풀기</button></Link>
         <Link to={'/'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns'}>처음으로</button></Link>
+        <div />
+        <div onClick={shareToKakao} className={darkmodeToggle ? 'shareKakao darkShareKakao' : 'shareKakao'}>
+        <i className='xi-kakaotalk xi-4x'/>
+      </div>
       </div>
     )
   } else if (score >= 7) {
@@ -21,6 +25,10 @@ function ResultScreen({ darkmodeToggle }) {
         <p className='resultScore scoreHigh'>{score}점</p>
         <Link to={'/quiz'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns resultBtns'}>다시 풀기</button></Link>
         <Link to={'/'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns'}>처음으로</button></Link>
+        <div />
+        <div onClick={shareToKakao} className={darkmodeToggle ? 'shareKakao darkShareKakao' : 'shareKakao'}>
+        <i className='xi-kakaotalk xi-4x'/>
+      </div>
       </div>
     )
   } else if (score >= 5) {
@@ -30,6 +38,10 @@ function ResultScreen({ darkmodeToggle }) {
         <p className='resultScore scoreMiddle'>{score}점</p>
         <Link to={'/quiz'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns'}>다시 풀기</button></Link>
         <Link to={'/'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns'}>처음으로</button></Link>
+        <div />
+        <div onClick={shareToKakao} className={darkmodeToggle ? 'shareKakao darkShareKakao' : 'shareKakao'}>
+        <i className='xi-kakaotalk xi-4x'/>
+      </div>
       </div>
     )
   } else {
@@ -39,6 +51,10 @@ function ResultScreen({ darkmodeToggle }) {
         <p className='resultScore scoreLow'>{score}점</p>
         <Link to={'/quiz'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns'}>다시 풀기</button></Link>
         <Link to={'/'}><button className={darkmodeToggle ? 'Btn darkBtn viewBtn resultBtns' : 'Btn viewBtn resultBtns'}>처음으로</button></Link>
+        <div />
+        <div onClick={shareToKakao} className={darkmodeToggle ? 'shareKakao darkShareKakao' : 'shareKakao'}>
+        <i className='xi-kakaotalk xi-4x'/>
+      </div>
       </div>
     )
   }
