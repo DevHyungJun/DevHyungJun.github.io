@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.54937f69.css",
-    "main.js": "/static/js/main.c021d90f.js",
+    "main.js": "/static/js/main.e25ae8e3.js",
     "static/js/787.9e90ff23.chunk.js": "/static/js/787.9e90ff23.chunk.js",
     "static/media/제리꾸벅.gif": "/static/media/제리꾸벅.e2c6304cef1375d02617.gif",
     "index.html": "/index.html",
     "main.54937f69.css.map": "/static/css/main.54937f69.css.map",
-    "main.c021d90f.js.map": "/static/js/main.c021d90f.js.map",
+    "main.e25ae8e3.js.map": "/static/js/main.e25ae8e3.js.map",
     "787.9e90ff23.chunk.js.map": "/static/js/787.9e90ff23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54937f69.css",
-    "static/js/main.c021d90f.js"
+    "static/js/main.e25ae8e3.js"
   ]
 }
