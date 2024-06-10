@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.54937f69.css",
-    "main.js": "/static/js/main.463134cd.js",
-    "static/js/787.9e90ff23.chunk.js": "/static/js/787.9e90ff23.chunk.js",
-    "static/media/제리꾸벅.gif": "/static/media/제리꾸벅.e2c6304cef1375d02617.gif",
-    "index.html": "/index.html",
-    "main.54937f69.css.map": "/static/css/main.54937f69.css.map",
-    "main.463134cd.js.map": "/static/js/main.463134cd.js.map",
-    "787.9e90ff23.chunk.js.map": "/static/js/787.9e90ff23.chunk.js.map"
+    "main.css": "/quiz-app/static/css/main.3b819b4e.css",
+    "main.js": "/quiz-app/static/js/main.aeb5af04.js",
+    "static/js/787.9e90ff23.chunk.js": "/quiz-app/static/js/787.9e90ff23.chunk.js",
+    "static/media/제리꾸벅.gif": "/quiz-app/static/media/제리꾸벅.e2c6304cef1375d02617.gif",
+    "index.html": "/quiz-app/index.html",
+    "main.3b819b4e.css.map": "/quiz-app/static/css/main.3b819b4e.css.map",
+    "main.aeb5af04.js.map": "/quiz-app/static/js/main.aeb5af04.js.map",
+    "787.9e90ff23.chunk.js.map": "/quiz-app/static/js/787.9e90ff23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54937f69.css",
-    "static/js/main.463134cd.js"
+    "static/css/main.3b819b4e.css",
+    "static/js/main.aeb5af04.js"
   ]
 }
